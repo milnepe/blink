@@ -1,42 +1,42 @@
-basic.forever(function () {
-    basic.showLeds(`
+def on_forever():
+    basic.show_leds("""
         # # # # #
         . . . . .
         . . . . .
         . . . . .
         . . . . .
-        `)
+        """)
     basic.pause(500)
-    basic.showLeds(`
+    basic.show_leds("""
         . . . . .
         # . # . #
         . . . . .
         . . . . .
         . . . . .
-        `)
+        """)
     basic.pause(500)
-    basic.showLeds(`
+    basic.show_leds("""
         . . . . .
         . . . . .
         . # . # .
         . . . . .
         . . . . .
-        `)
+        """)
     basic.pause(500)
-    basic.showLeds(`
+    basic.show_leds("""
         . . . . .
         . . . . .
         . . . . .
         # . # . #
         . . . . .
-        `)
+        """)
     basic.pause(500)
-    basic.showLeds(`
+    basic.show_leds("""
         . . . . .
         . . . . .
         . . . . .
         . . . . .
         . # . # .
-        `)
+        """)
     basic.pause(500)
-})
+basic.forever(on_forever)
